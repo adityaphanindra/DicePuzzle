@@ -47,7 +47,6 @@ if __name__ == '__main__':
 	print "Mapping distribution vs 2-dice probabilities:"
 	print '\n'.join('Sum = {}: {} (expected : {})'.format(key, value, p_two_dice[key]) for key, value in probabilities.iteritems())
 
-	draw_mapping(mapping)
 	while(True):
 		input_value = raw_input('Enter a triplet (eg. 632) or q to quit:')
 
